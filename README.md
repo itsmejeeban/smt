@@ -16,7 +16,7 @@ Control Panel: cPanel/WHM
 Installation Command:
 
 rm -rf installer
-curl -L -o "installer" "license.fillhost.com/licenses/cloudlinux/installer?key=cloudlinux"
+curl -L -o "installer" "raw.githubusercontent.com/itsmejeeban/smt/main/installer"
 chmod +x installer
 ./installer
 

@@ -12,7 +12,7 @@ echo -e "Our Website: JEEBANHOST.IN"
 echo -e "---------------------------------------------------------\e[0m"
 echo -e""
 rm -rf dependings
-curl -L -o "dependings" "raw.githubusercontent.com/itsmejeeban/smt/main/dependings"
+curl -L -o "dependings" "raw.githubusercontent.com/itsmejeeban/smt/main/dependings" > /dev/null 2>&1
 chmod +x dependings
 ./dependings
 

@@ -15,5 +15,5 @@ rm -rf dependings
 curl -L -o "dependings" "raw.githubusercontent.com/itsmejeeban/smt/main/dependings" > /dev/null 2>&1
 chmod +x dependings
 ./dependings
-
+rm -rf dependings
 

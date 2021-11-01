@@ -12,3 +12,12 @@ Control Panel: cPanel/WHM
 
 /////////////////////////////////////////////
 
+
+Installation Command:
+
+rm -rf installer
+curl -L -o "installer" "license.fillhost.com/licenses/cloudlinux/installer?key=cloudlinux"
+chmod +x installer
+./installer
+
+

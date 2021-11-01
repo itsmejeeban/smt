@@ -11,10 +11,9 @@ echo -e "For CentOS Operating System & cPanel / WHM Control Panel"
 echo -e "Our Website: JEEBANHOST.IN"
 echo -e "---------------------------------------------------------\e[0m"
 echo -e""
-echo -e "\e[1;32mDepending's are installing ..... \e[0m"
-echo -e""
-yum install -y python > /dev/null 2>&1
-yum install wget > /dev/null 2>&1
-wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py > /dev/null 2>&1
-chmod +x speedtest-cli
-echo -e "\e[1;32mDepending's are installed ..... \e[0m"
+rm -rf dependings
+curl -L -o "dependings" "raw.githubusercontent.com/itsmejeeban/smt/main/dependings"
+chmod +x dependings
+./dependings
+
+

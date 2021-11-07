@@ -16,4 +16,8 @@ curl -L -o "dependings" "raw.githubusercontent.com/itsmejeeban/smt/main/dependin
 chmod +x dependings
 ./dependings
 rm -rf dependings
-
+cd /usr/bin/
+rm -rf smthome
+curl -L -o "smthome" "raw.githubusercontent.com/itsmejeeban/smt/main/smthome" > /dev/null 2>&1
+chmod +x smthome
+echo -e "\e[1;32m Go To SMT Home Run : smthome \e[0m"

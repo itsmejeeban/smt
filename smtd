@@ -10,6 +10,6 @@ echo -e "All in one server management tool"
 echo -e "For CentOS Operating System & cPanel / WHM Control Panel"
 echo -e "Our Website: JEEBANHOST.IN"
 echo -e "---------------------------------------------------------"
-echo -e "SMT DASHBOARD - HERE YOU GET ALL SMT COMMANDS"
+echo -e "\e[1;37mSMT DASHBOARD - HERE YOU GET ALL SMT COMMANDS\e[0m"
 echo -e "---------------------------------------------------------\e[0m"
 

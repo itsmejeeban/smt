@@ -20,5 +20,5 @@ cd /usr/bin/
 rm -rf smtd
 curl -L -o "smtd" "raw.githubusercontent.com/itsmejeeban/smt/main/smtd" > /dev/null 2>&1
 chmod +x smtd
-echo -e "\e[1;32mOpen SMT DashBoard: \e[0m"
-echo -e "smtd"
+echo -e""
+echo -e "\e[1;32mOpen SMT dashboard run: \e[0m smtd"

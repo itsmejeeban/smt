@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[1;32mDepending's are installing ..... \e[0m"
+echo -e "\e[1;31mDepending's are installing ..... \e[0m"
 echo -e""
 yum install -y python > /dev/null 2>&1
 yum install wget -y > /dev/null 2>&1

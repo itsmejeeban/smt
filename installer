@@ -18,6 +18,7 @@ chmod +x dependings
 rm -rf dependings
 cd /usr/bin/
 rm -rf smthome
-curl -L -o "smthome" "raw.githubusercontent.com/itsmejeeban/smt/main/smthome" > /dev/null 2>&1
+curl -L -o "smthome" "raw.githubusercontent.com/itsmejeeban/smt/main/smtd" > /dev/null 2>&1
 chmod +x smthome
-echo -e "\e[1;32m Go To SMT Home Run : smthome \e[0m"
+echo -e "\e[1;32mTo Open SMT DashBoard Run: \e[0m"
+echo -e "smtd"
